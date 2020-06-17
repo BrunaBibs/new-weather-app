@@ -14,6 +14,21 @@
   </head>
   <body>
     <div class="container">
+      <form class="search-city" id="search-form">
+        <button type="submit" id="searching">
+          Search
+        </button>
+        <button type="submit" id="current">
+          Current
+        </button>
+        <input
+          type="text"
+          placeholder="Enter a city"
+          autocomplete="off"
+          autofocus="on"
+          id="enter-city"
+        />
+      </form>
       <h1 class="country">
         Country
       </h1>
@@ -31,11 +46,13 @@
           Monday 10:00
         </div>
       </div>
-      <div class="humidity">
-        humidity
-      </div>
-      <div class="wind">
-        Wind Speed
+      <div class="third-container">
+        <div class="humidity">
+          humidity
+        </div>
+        <div class="wind">
+          Wind Speed
+        </div>
       </div>
       <ul class="forecast">
         <li class="week-day"></li>
