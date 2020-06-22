@@ -13,7 +13,7 @@ body {
   box-sizing: border-box;
   margin: 60px auto;
   box-shadow: 10px 10px 19px -11px rgba(0, 0, 0, 0.75);
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 40px 60px;
   background-image: linear-gradient(
     171.8deg,
@@ -29,7 +29,7 @@ body {
   height: 100px;
   border: none;
   margin: 50px auto;
-  border-radius: 5px;
+  border-radius: 30px;
   text-align: center;
   padding: 10px;
   color: #fff;
@@ -55,7 +55,7 @@ body {
   height: 100px;
   border: none;
   margin: 50px auto;
-  border-radius: 5px;
+  border-radius: 30px;
   text-align: center;
   padding: 10px;
   color: #fff;
@@ -83,4 +83,127 @@ body {
 .search-city {
   text-align: center;
   margin: 10px;
+}
+
+button {
+  border-radius: 4px;
+  border: none;
+  background: #1e2235;
+  color: #f6f8ff;
+  shadow: rgba(#00093d, 0.24);
+  cannon-dark: #a6accd;
+  cannon-light: #f6f8ff;
+  cannon-shadow: #{rgba(#0d0f18, 0.9)};
+  confetti-1: #892ab8;
+  confetti-2: #ea4c89;
+  confetti-3: #ffff04;
+  confetti-4: #4af2fd;
+}
+
+.icon-container {
+  width: 10rem;
+  height: 10rem;
+  border: 3px solid#75e6da;
+  background-color: #071330;
+  margin-bottom: 2rem;
+  display: flex;
+  transform: rotate(45deg);
+}
+
+.icon-container i {
+  color: #c3ceda;
+  font-size: 5rem;
+  margin: auto;
+  transform: rotate(-45deg);
+}
+
+.fa-html5:hover {
+  color: #e96228;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.8),
+    0 0 8px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(66, 220, 219, 0.8), 0 0 30px rgba(66, 220, 219, 0.8),
+    0 0 40px rgba(66, 220, 219, 0.8), 0 0 50px rgba(66, 220, 219, 0.5),
+    0 0 80px rgba(66, 220, 219, 0.5);
+}
+
+.fa-css3-alt:hover {
+  color: #28a4d8;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.8),
+    0 0 8px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(66, 220, 219, 0.8), 0 0 30px rgba(66, 220, 219, 0.8),
+    0 0 40px rgba(66, 220, 219, 0.8), 0 0 50px rgba(66, 220, 219, 0.5),
+    0 0 80px rgba(66, 220, 219, 0.5);
+}
+
+.fa-sass:hover {
+  color: #ce6b9e;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.8),
+    0 0 8px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(66, 220, 219, 0.8), 0 0 30px rgba(66, 220, 219, 0.8),
+    0 0 40px rgba(66, 220, 219, 0.8), 0 0 50px rgba(66, 220, 219, 0.5),
+    0 0 80px rgba(66, 220, 219, 0.5);
+}
+
+.fa-js:hover {
+  color: #e9d44d;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.8),
+    0 0 8px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(66, 220, 219, 0.8), 0 0 30px rgba(66, 220, 219, 0.8),
+    0 0 40px rgba(66, 220, 219, 0.8), 0 0 50px rgba(66, 220, 219, 0.5),
+    0 0 80px rgba(66, 220, 219, 0.5);
+}
+
+.fa-gem:hover {
+  color: #a51401;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.8),
+    0 0 8px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(66, 220, 219, 0.8), 0 0 30px rgba(66, 220, 219, 0.8),
+    0 0 40px rgba(66, 220, 219, 0.8), 0 0 50px rgba(66, 220, 219, 0.5),
+    0 0 80px rgba(66, 220, 219, 0.5);
+}
+
+.fa-database:hover {
+  color: #319f3d;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.8),
+    0 0 8px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(66, 220, 219, 0.8), 0 0 30px rgba(66, 220, 219, 0.8),
+    0 0 40px rgba(66, 220, 219, 0.8), 0 0 50px rgba(66, 220, 219, 0.5),
+    0 0 80px rgba(66, 220, 219, 0.5);
+}
+
+.fa-react:hover {
+  color: #5ed3f3;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.8),
+    0 0 8px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(66, 220, 219, 0.8), 0 0 30px rgba(66, 220, 219, 0.8),
+    0 0 40px rgba(66, 220, 219, 0.8), 0 0 50px rgba(66, 220, 219, 0.5),
+    0 0 80px rgba(66, 220, 219, 0.5);
+}
+
+.fa-node-js:hover {
+  color: #8cbf3d;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.8),
+    0 0 8px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(66, 220, 219, 0.8), 0 0 30px rgba(66, 220, 219, 0.8),
+    0 0 40px rgba(66, 220, 219, 0.8), 0 0 50px rgba(66, 220, 219, 0.5),
+    0 0 80px rgba(66, 220, 219, 0.5);
+}
+
+.technologies {
+  margin-top: 6rem;
+  font-size: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+.tech-icon1,
+.tech-icon2 {
+  display: inline-block;
+  letter-spacing: 2rem;
+  margin: 2rem 0rem;
+  display: flex;
+  flex-wrap: row wrap;
 }
